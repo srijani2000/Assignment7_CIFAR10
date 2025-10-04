@@ -97,6 +97,7 @@ The network is structured into **4 distinct blocks**, each designed to capture d
 - **Best Test Accuracy**:  83.82% (Epoch 24)
 - **Training Accuracy**:   86.98% (Epoch 24)
 - **Training Epochs**:     65 epochs
+- **Achieved 85% accuracy**: 43th epoch
 
 ### 📊 **Training Progress & Testing Highlights**
 
@@ -209,6 +210,7 @@ BATCH SIZE = 128
 - **Dropout Layers**: 2 strategic placements
 - **Batch Normalization**: 15 layers
 - **Final Receptive Field**: 45×45 pixels
+- **Achieved 85% accuracy**: 43th epoch
 
 ---
 
@@ -217,4 +219,5 @@ BATCH SIZE = 128
 This CIFAR-10 neural network demonstrates an excellent balance between **parameter efficiency** and **performance**, achieving **86.98% test accuracy** with just **200k parameters**. The architecture successfully combines multiple convolution techniques to create a hierarchical feature learning system that progresses from edge detection to complete object recognition.
 
 The systematic approach to receptive field growth, combined with modern regularization techniques, results in a robust and efficient model suitable for real-world applications where parameter count is a constraint.
+
 
