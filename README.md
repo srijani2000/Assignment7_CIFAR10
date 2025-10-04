@@ -99,18 +99,18 @@ The network is structured into **4 distinct blocks**, each designed to capture d
 
 ### 📊 **Training Progress & Testing Highlights**
 
--   Epoch 1   : Train Acc: 36.67% | Test Acc: 49.04%
--   Epoch 10  : Train Acc: 71.13% | Test Acc: 76.04%
--   Epoch 20  : Train Acc: 76.79% | Test Acc: 78.53%
--   Epoch 24: Train Acc: 77.81% | Test Acc: **83.21%** ⭐
--   Epoch 30:  Train Acc: 78.48% | Test Acc: 83.27%
+    Epoch 1   : Train Acc: 36.67% | Test Acc: 49.04%
+    Epoch 10  : Train Acc: 71.13% | Test Acc: 76.04%
+    Epoch 20  : Train Acc: 76.79% | Test Acc: 78.53%
+    Epoch 24: Train Acc: 77.81% | Test Acc:  83.21% 
+    Epoch 30:  Train Acc: 78.48% | Test Acc: 83.27%
     Epoch 40:  Train Acc: 81.40% | Test Acc: 84.93%
     Epoch 50:  Train Acc: 82.49% | Test Acc: 85.29%
     Epoch 55:  Train Acc: 83.13% | Test Acc: 85.46%
     Epoch 60:  Train Acc: 83.41% | Test Acc: 86.57%
     Epoch 65:  Train Acc: 83.82% | Test Acc: 86.98%
 
----
+
 
 ## 🔄 Data Augmentation Strategy
 
