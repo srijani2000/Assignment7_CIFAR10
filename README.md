@@ -92,7 +92,8 @@ The network is structured into **4 distinct blocks**, each designed to capture d
 ## 📈 Training Results
 
 ### 🎯 **Final Performance Metrics**
-- **Total Parameters**:    21,000 (as specified)
+- **Total Parameters**:    200k(almost)
+- **Batch Size**      :    128
 - **Best Test Accuracy**:  83.82% (Epoch 24)
 - **Training Accuracy**:   86.98% (Epoch 24)
 - **Training Epochs**:     65 epochs
@@ -170,6 +171,7 @@ Input (3, 32, 32)
     └── FC: 80→10 classes
 ```
 TOTAL RECEPTIVE Count : 45 
+BATCH SIZE = 128
 
 ---
 
@@ -212,6 +214,7 @@ TOTAL RECEPTIVE Count : 45
 
 ## 🏆 Conclusion
 
-This CIFAR-10 neural network demonstrates an excellent balance between **parameter efficiency** and **performance**, achieving **86.98% test accuracy** with just **21,000 parameters**. The architecture successfully combines multiple convolution techniques to create a hierarchical feature learning system that progresses from edge detection to complete object recognition.
+This CIFAR-10 neural network demonstrates an excellent balance between **parameter efficiency** and **performance**, achieving **86.98% test accuracy** with just **200k parameters**. The architecture successfully combines multiple convolution techniques to create a hierarchical feature learning system that progresses from edge detection to complete object recognition.
 
 The systematic approach to receptive field growth, combined with modern regularization techniques, results in a robust and efficient model suitable for real-world applications where parameter count is a constraint.
+
